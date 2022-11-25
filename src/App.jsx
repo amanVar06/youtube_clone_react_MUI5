@@ -10,6 +10,7 @@ import {
 } from "./components";
 
 const App = () => {
+  // console.log(import.meta.env.VITE_RAPID_API_KEY);
   return (
     <BrowserRouter>
       <Box sx={{ backgroundColor: "#000" }}>
