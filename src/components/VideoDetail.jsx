@@ -42,7 +42,7 @@ const VideoDetail = () => {
               controls
             />
 
-            <Typography variant="h5" color="#fff" fontWeight="bold" p={2}>
+            <Typography variant="h6" color="#fff" fontWeight="bold" p={1}>
               {title}
             </Typography>
 
@@ -50,11 +50,11 @@ const VideoDetail = () => {
               direction="row"
               justifyContent="space-between"
               sx={{ color: "#fff" }}
-              py={1}
+              // py={1}
               px={2}
             >
               <Link to={`/channel/${channelId}`}>
-                <Typography variant="h6" color="#fff">
+                <Typography variant="subtitle1" color="#fff">
                   {channelTitle}
                   <CheckCircle
                     sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
